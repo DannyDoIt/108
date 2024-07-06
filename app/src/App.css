@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.catalog {
+  padding: 2rem;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+}
+
+.about {
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+}
+
+.about div {
+  font-size: 1.2rem;
+}
