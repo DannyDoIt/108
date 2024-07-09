@@ -1,6 +1,7 @@
 .navbar {
     background-color: #f8f9fa;
     padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .navbar .navbar-brand {
@@ -14,4 +15,8 @@
 
 .navbar .nav-link:hover {
     color: #007bff;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    margin-left: 1rem;
 }
